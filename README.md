@@ -1,4 +1,5 @@
 System Description: Event Planner System
+
 The Event Planner System is a desktop-based Graphical User Interface (GUI) application designed to streamline the scheduling, tracking, and management of events. Built using Python’s native tkinter and ttk libraries, it delivers a sleek, responsive workspace tailored for individual organizers or small event production teams.
 
 The system replaces traditional, error-prone console terminal menus with a modern, dark-themed visual dashboard inspired by high-end development environments. It unifies event data storage with an interactive workspace, ensuring all scheduling modifications persist safely in a local data file.
@@ -140,7 +141,9 @@ Once the graphical dashboard initializes on your screen, you can manage your ope
 
 
 GROUP 4 EVENT PLANNER SYSTEM 
+
 MEMBER:
+
 1. CABAB, DAVE KEVIN N.
 2. CASCARA, JOHN PAUL P.
 3. GUASIL, JUSTIN PAUL P.
