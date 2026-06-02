@@ -1,3 +1,5 @@
+---
+
 System Description
 
 The Event Planner System is a desktop-based application designed to manage, track, and log event schedules within a structured digital ecosystem. Developed using Python's tkinter library, the system provides a responsive, dark-themed graphical user interface (GUI) modeled after contemporary flat-design aesthetics. Security is implemented through a standalone login gateway, requiring specific administrative credentials (group4 / 12345) before unlocking access to the core dashboards. Once authenticated, users can seamlessly transition between a data management panel and a unified calendar overview tab, both supported by real-time calculation metric cards that keep a live tally of total scheduled entries and unique venues booked.
@@ -57,8 +59,6 @@ This feature allows you to permanently remove an unneeded event record from your
 * **System Logic:**
 * **Destructive Confirmation Prompt:** To prevent accidental mouse slips from deleting valuable scheduling data, the application interrupts the delete command by generating an explicit native confirmation message box (`askyesno`).
 * If confirmed, the system filters out the active matching `Event ID` string, updates `events.json`, clears all text input entry slots, and updates the UI grids.
-
----
 
 ---
 
